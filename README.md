@@ -1,39 +1,58 @@
 
 # BÀI 1: LÀM QUEN VỚI NODE.JS
 
-## Thông tin sinh viên
+## 1. Thông tin sinh viên
+
 - Họ và tên: Đỗ Trung Ngọc Bảo
 - Lớp: CĐ-CNTT18A
-- Môn học: Node.js
+- Bài thực hành: Bài 1 - Node.js
 
-## 1. Mục tiêu
-- Cài đặt Node.js và npm.
+## 2. Mục tiêu bài thực hành
+
+- Cài đặt Node.js phiên bản LTS.
 - Kiểm tra phiên bản Node.js và npm.
-- Tạo chương trình JavaScript đầu tiên.
-- Chạy chương trình bằng Terminal trong VS Code.
+- Tạo file JavaScript đầu tiên.
+- Thực thi chương trình bằng Node.js.
+- Mô tả kết quả chạy chương trình.
 
-## 2. Kiểm tra Node.js và npm
+## 3. Công cụ sử dụng
 
-Mở Terminal và nhập:
+- Visual Studio Code
+- Node.js LTS
+- npm
+- Windows
 
-```powershell
-node -v
-npm.cmd -v
-```
+## 4. Các bước thực hiện
 
-Kết quả kiểm tra:
+### Bước 1: Cài đặt Node.js
 
-```text
-Node.js: v26.13.0
-npm: 11.20.0
-```
+Truy cập trang web:
+https://nodejs.org/en/download
 
-Lưu ý: Cần sử dụng phiên bản Node.js LTS
-theo yêu cầu của giảng viên.
+Tải và cài đặt phiên bản Node.js LTS.
 
-## 3. Tạo chương trình hello.js
+### Bước 2: Kiểm tra phiên bản
 
-Nội dung file hello.js:
+Mở Terminal trong Visual Studio Code.
+
+Nhập lệnh:
+
+    node -v
+
+Kiểm tra npm:
+
+    npm.cmd -v
+
+Ghi nhận phiên bản Node.js và npm
+sau khi cài đặt thành công.
+
+### Bước 3: Tạo file hello.js
+
+Tạo thư mục Bai01_NodeJS.
+
+Trong thư mục tạo file hello.js.
+
+Nội dung chương trình:
 
 ```javascript
 console.log("Hello Node.js!");
@@ -41,33 +60,129 @@ console.log("Ho ten: Do Trung Ngoc Bao");
 console.log("Lop: CD-CNTT18A");
 ```
 
-## 4. Chạy chương trình
+### Bước 4: Chạy chương trình
 
 Trong Terminal nhập:
 
-```powershell
-node hello.js
+    node hello.js
+
+## 5. Kết quả thực hiện
+
+Chương trình hiển thị:
+
+    Hello Node.js!
+    Ho ten: Do Trung Ngoc Bao
+    Lop: CD-CNTT18A
+
+## 6. Nhận xét
+
+Chương trình hello.js chạy thành công
+trên Terminal của Visual Studio Code.
+
+Node.js cho phép chạy JavaScript
+trực tiếp trên máy tính mà không cần
+sử dụng trình duyệt web.
+
+## 7. Kết luận
+
+Qua bài thực hành, em đã biết cách:
+
+- Cài đặt Node.js.
+- Kiểm tra phiên bản Node.js và npm.
+- Tạo file JavaScript.
+- Chạy chương trình bằng Node.js.
+- Quan sát kết quả trên Terminal.
+
+# BÀI 1: LÀM QUEN VỚI NODE.JS
+
+## 1. Thông tin sinh viên
+
+- Họ và tên: Đỗ Trung Ngọc Bảo
+- Lớp: CĐ-CNTT18A
+- Bài thực hành: Bài 1 - Node.js
+
+## 2. Mục tiêu bài thực hành
+
+- Cài đặt Node.js phiên bản LTS.
+- Kiểm tra phiên bản Node.js và npm.
+- Tạo file JavaScript đầu tiên.
+- Thực thi chương trình bằng Node.js.
+- Mô tả kết quả chạy chương trình.
+
+## 3. Công cụ sử dụng
+
+- Visual Studio Code
+- Node.js LTS
+- npm
+- Windows
+
+## 4. Các bước thực hiện
+
+### Bước 1: Cài đặt Node.js
+
+Truy cập trang web:
+https://nodejs.org/en/download
+
+Tải và cài đặt phiên bản Node.js LTS.
+
+### Bước 2: Kiểm tra phiên bản
+
+Mở Terminal trong Visual Studio Code.
+
+Nhập lệnh:
+
+    node -v
+
+Kiểm tra npm:
+
+    npm.cmd -v
+
+Ghi nhận phiên bản Node.js và npm
+sau khi cài đặt thành công.
+
+### Bước 3: Tạo file hello.js
+
+Tạo thư mục Bai01_NodeJS.
+
+Trong thư mục tạo file hello.js.
+
+Nội dung chương trình:
+
+```javascript
+console.log("Hello Node.js!");
+console.log("Ho ten: Do Trung Ngoc Bao");
+console.log("Lop: CD-CNTT18A");
 ```
 
-Kết quả:
+### Bước 4: Chạy chương trình
 
-```text
-Hello Node.js!
-Ho ten: Do Trung Ngoc Bao
-Lop: CD-CNTT18A
-```
+Trong Terminal nhập:
 
-## 5. Nhận xét
+    node hello.js
 
-Chương trình đã chạy thành công.
+## 5. Kết quả thực hiện
 
-Node.js cho phép thực thi mã JavaScript
-trực tiếp trên máy tính mà không cần trình duyệt.
+Chương trình hiển thị:
 
-Em đã biết cách tạo file JavaScript và
-chạy chương trình bằng Node.js trong VS Code.
+    Hello Node.js!
+    Ho ten: Do Trung Ngoc Bao
+    Lop: CD-CNTT18A
 
-## 6. Kết luận
+## 6. Nhận xét
 
-Em đã hoàn thành chương trình Hello Node.js
-và kiểm tra được môi trường Node.js, npm.
+Chương trình hello.js chạy thành công
+trên Terminal của Visual Studio Code.
+
+Node.js cho phép chạy JavaScript
+trực tiếp trên máy tính mà không cần
+sử dụng trình duyệt web.
+
+## 7. Kết luận
+
+Qua bài thực hành, em đã biết cách:
+
+- Cài đặt Node.js.
+- Kiểm tra phiên bản Node.js và npm.
+- Tạo file JavaScript.
+- Chạy chương trình bằng Node.js.
+- Quan sát kết quả trên Terminal.
